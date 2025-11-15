@@ -18,8 +18,8 @@ def reset():
     cnt.reset()
     return redirect("/")
 
-@app.route("/set_amount", methods=["POST"])
-def set_amount():
-    amount = request.form["amount"]
-    cnt.set_amount(amount)
+@app.route("/set_value", methods=["POST"])
+def set_value():
+    value = request.form["value"]
+    cnt.set_value(value)
     return redirect("/")
