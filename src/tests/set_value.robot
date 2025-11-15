@@ -9,3 +9,4 @@ When value given the counter understands it
     Input Text  value  5
     Click Button  Aseta
     Page Should Contain  nappia painettu 5 kertaa
+    Click Button  Nollaa
